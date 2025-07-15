@@ -10,7 +10,7 @@ genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.0-flash-lite")
 
 # ✅ Streamlit app settings
-st.set_page_config(page_title="Agent Ramana", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="AGENT E-CART", page_icon="🤖", layout="wide")
 
 # ✅ Custom CSS for chat layout
 st.markdown(
@@ -72,7 +72,7 @@ for msg in st.session_state.messages:
         st.markdown(f'<div class="ai-container"><div class="chat-message ai-message">{msg["content"]}</div></div>', unsafe_allow_html=True)
 
 # ✅ User input
-user_input = st.chat_input("Say something to Ramana...")
+user_input = st.chat_input("Say something to AGENT E-CART...")
 
 if user_input:
     st.session_state.messages.append({"role": "user", "content": user_input})
