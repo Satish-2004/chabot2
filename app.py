@@ -49,7 +49,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("🤖 Agent Ramana")
+st.title("🤖 AGENT E-CART")
 
 # ✅ Start session
 if "messages" not in st.session_state:
