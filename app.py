@@ -56,9 +56,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = [
         {
             "role": "ai",
-            "content": (
-                “Hey, I’m E-Cart — your smart shopping companion 🛒. You can search for products, explore categories, add items to your cart, or ask me for help finding the best deals. I’m always here to make your shopping easy and fun!”
-            )
+            "content": ("Hey am your e-cart which is e-commerce assistance")
         }
     ]
 
