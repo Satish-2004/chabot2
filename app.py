@@ -56,7 +56,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = [
         {
             "role": "ai",
-            "content": ("Hey am your e-cart which is e-commerce assistane")
+            "content": ("Hey am your e-cart which is e-commerce assistacne")
         }
     ]
 
