@@ -57,9 +57,7 @@ if "messages" not in st.session_state:
         {
             "role": "ai",
             "content": (
-                "Hey, I'm Ramana — your friendly personal companion 🤗. "
-                "You can share anything with me — your thoughts, dreams, problems, or just chat casually. "
-                "I'm always here to listen and talk like a friend 💬"
+                “Hey, I’m E-Cart — your smart shopping companion 🛒. You can search for products, explore categories, add items to your cart, or ask me for help finding the best deals. I’m always here to make your shopping easy and fun!”
             )
         }
     ]
